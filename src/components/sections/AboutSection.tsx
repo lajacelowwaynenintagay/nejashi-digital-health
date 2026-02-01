@@ -10,18 +10,19 @@ export const AboutSection = () => {
               About <span className="text-primary">Me</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm Abdirahman, a web designer and developer from Jigjiga. I previously worked with 
+              I'm Mohamed, a web designer and developer from Jigjiga. I previously worked with 
               two established web design agencies — <span className="text-foreground font-medium">Ileys</span> and{" "}
               <span className="text-foreground font-medium">Abarso Web Design</span> — where I built websites 
-              for businesses across Africa, Europe, and Australia.
+              for businesses across East Africa, Ethiopia, Kenya and Somalia including 3 collaborations in international 
+              agencies.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               Now I'm working independently as a freelancer, building my personal portfolio and 
               focusing on helping local businesses in Jigjiga establish their online presence.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I understand our community, speak Somali and Amharic fluently, and I'm passionate 
-              about bringing world-class web design to our region.
+              I understand our community, speak Somali and English fluently, Kiswahili and I'm passionate 
+              about bringing world-class web design to our local Somali businesses in Jigjiga.
             </p>
           </div>
 
@@ -48,7 +49,7 @@ export const AboutSection = () => {
               icon={<Users className="w-6 h-6" />}
               title="Clients"
               value="3 Continents"
-              description="Africa, Australia, Europe"
+              description="Africa, Australia, Asia but mostly in Horn Somali inhabited regions"
             />
           </div>
         </div>

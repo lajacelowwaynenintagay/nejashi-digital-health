@@ -1,5 +1,5 @@
 import { Calendar, Clock, Users, Phone, FileText, Shield, Star, MapPin, Stethoscope, Building } from "lucide-react";
-import websiteMockup from "@/assets/website-mockup.jpg";
+import websiteMockup from "@/assets/website-mockup new one.png";
 
 export const WebsiteFeaturesSection = () => {
   return (

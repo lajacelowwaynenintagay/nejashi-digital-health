@@ -6,9 +6,9 @@ export const Footer = () => {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">A</span>
+                <span className="text-primary-foreground font-bold text-lg">M</span>
               </div>
-              <span className="font-display text-xl font-semibold">Abdirahman</span>
+              <span className="font-display text-xl font-semibold">Mohamed</span>
             </div>
             <p className="text-white/70 text-sm">
               Professional web design & development for businesses in Jigjiga and beyond.
@@ -57,14 +57,14 @@ export const Footer = () => {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-white/70 text-sm">
               <li>Jigjiga, Ethiopia</li>
-              <li>Phone: +251 XX XXX XXXX</li>
-              <li>Email: your@email.com</li>
+              <li>Phone: +251 94 883 1748</li>
+              <li>Email: mohamedahmedabdi@gmail.com</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 mt-8 pt-8 text-center text-white/50 text-sm">
-          <p>© 2026 Abdirahman Web Design. All rights reserved.</p>
+          <p>© 2026 Mohamed Web Design. All rights reserved.</p>
           <p className="mt-2">Proposal for Nejashi Hospital, Jigjiga</p>
         </div>
       </div>

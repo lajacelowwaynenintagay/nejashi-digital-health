@@ -48,14 +48,14 @@ export const ApproveSection = () => {
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <a
-            href="tel:+251XXXXXXXXX"
+            href="tel:+251948831748"
             className="flex items-center gap-2 px-6 py-3 bg-white text-primary font-semibold rounded-lg hover:bg-white/90 transition-colors"
           >
             <Phone className="w-5 h-5" />
             Call Me
           </a>
           <a
-            href="https://wa.me/251XXXXXXXXX"
+            href="https://wa.me/251948831748"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-6 py-3 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600 transition-colors"
@@ -64,7 +64,7 @@ export const ApproveSection = () => {
             WhatsApp
           </a>
           <a
-            href="mailto:your@email.com"
+            href="mailto:mohamedahmedabdi@gmail.com"
             className="flex items-center gap-2 px-6 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors"
           >
             <Mail className="w-5 h-5" />
@@ -76,7 +76,7 @@ export const ApproveSection = () => {
           <p className="opacity-80 mb-2">Proposal prepared for</p>
           <h4 className="text-2xl font-display font-bold">Nejashi Hospital, Jigjiga</h4>
           <p className="opacity-60 mt-4 text-sm">
-            This proposal is valid for 30 days. Prices and availability subject to confirmation.
+            This proposal is valid for 10 days. Prices and availability subject to confirmation.
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import heroImage from "@/assets/hero-design-team.jpg";
-import websiteMockup from "@/assets/website-mockup.jpg";
-import hospitalBuilding from "@/assets/hospital-building.jpg";
+import websiteMockup from "@/assets/website-mockup new one.png";
+import hospitalBuilding from "@/assets/najashi building.jpeg";
 
 export const HeroSection = () => {
   return (
@@ -15,7 +15,7 @@ export const HeroSection = () => {
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
               Thank you for considering{" "}
-              <span className="text-accent font-semibold">Abdirahman Web Design</span>{" "}
+              <span className="text-accent font-semibold">Mohamed Web Design</span>{" "}
               for your hospital's digital presence.
             </p>
             <p className="mt-4 text-xl text-foreground">

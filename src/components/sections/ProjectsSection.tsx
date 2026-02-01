@@ -16,7 +16,7 @@ const projects: Project[] = [
     description:
       "My proudest collaboration — a comprehensive financial services website for an Australian tax consultancy firm. Modern design with booking system integration.",
     location: "Sydney, Australia",
-    role: "Lead Developer (Collaboration)",
+    role: "Collaborated in Designing Phase",
     featured: true,
   },
   {
@@ -31,7 +31,8 @@ const projects: Project[] = [
     name: "Art Caffe Kenya",
     url: "https://artcaffe.co.ke",
     description:
-      "A vibrant restaurant and cafe chain website for one of Nairobi's most popular dining destinations. Menu, locations, and brand storytelling.",
+      "A vibrant restaurant and cafe chain website created while I was working with design agencies. " +
+      "Menu, locations, and brand storytelling for one of Nairobi's most popular dining destinations.",
     location: "Nairobi, Kenya",
     role: "Developer",
   },

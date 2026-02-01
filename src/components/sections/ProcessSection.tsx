@@ -24,7 +24,7 @@ export const ProcessSection = () => {
       description:
         "Together we gather all content: doctor photos, service descriptions, contact info, and hospital history. I can help write content too.",
       icon: <FileText className="w-6 h-6" />,
-      duration: "3-7 days",
+      duration: "1-2 days",
     },
     {
       number: 4,
@@ -32,7 +32,7 @@ export const ProcessSection = () => {
       description:
         "I develop your website with all features, test everything thoroughly, and optimize for speed and mobile devices.",
       icon: <Code className="w-6 h-6" />,
-      duration: "5-10 days",
+      duration: "3-6 days",
     },
     {
       number: 5,
@@ -40,7 +40,7 @@ export const ProcessSection = () => {
       description:
         "We go live! I train your team on updates, connect Google Analytics, and ensure everything runs perfectly. Ongoing support included.",
       icon: <Rocket className="w-6 h-6" />,
-      duration: "1-2 days",
+      duration: "1 day",
     },
   ];
 
@@ -102,7 +102,7 @@ export const ProcessSection = () => {
 
         <div className="mt-16 text-center">
           <p className="text-lg text-muted-foreground mb-6">
-            <span className="font-semibold text-foreground">Total timeline:</span> 2-4 weeks from start to launch
+            <span className="font-semibold text-foreground">Total timeline:</span> 2 weeks (7-14 days) from start to launch
           </p>
           <button
             onClick={() => document.getElementById("investment")?.scrollIntoView({ behavior: "smooth" })}

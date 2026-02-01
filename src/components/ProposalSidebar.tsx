@@ -9,6 +9,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   { id: "introduction", label: "Introduction" },
   { id: "your-website", label: "Your New Website" },
+  { id: "hospital-examples", label: "Hospital Examples" },
   { id: "our-process", label: "Our Process" },
   { id: "investment", label: "Your Investment" },
   { id: "projects", label: "My Projects" },
@@ -49,10 +50,10 @@ export const ProposalSidebar = () => {
       <div className="p-6 border-b border-sidebar-border">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">A</span>
+            <span className="text-primary-foreground font-bold text-lg">M</span>
           </div>
           <span className="font-display text-xl font-semibold text-sidebar-foreground">
-            Abdirahman
+            Mohamed
           </span>
         </div>
       </div>

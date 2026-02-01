@@ -27,6 +27,7 @@ const tiers: PricingTier[] = [
       "1 year hosting included",
       "Domain registration assistance",
       "2 training sessions",
+      "3 months free maintenance",
     ],
   },
   {
@@ -48,7 +49,7 @@ const tiers: PricingTier[] = [
       "Content Management System (CMS)",
       "1 year hosting included",
       "2 training sessions",
-      "3 months free maintenance",
+      "Lifetime updates",
     ],
   },
   {
@@ -69,9 +70,8 @@ const tiers: PricingTier[] = [
       "Security & HIPAA compliance guidelines",
       "Priority support",
       "1 year hosting included",
-      "Lifetime updates",
-      "24/7 customer support",
-      "12 months free maintenance",
+      "3 months social media posters and designs to post for updates",
+      "1 month full social media and Google advertisement",
       "Quarterly performance reports",
     ],
   },
@@ -169,6 +169,67 @@ export const InvestmentSection = () => {
                 <p className="text-sm text-muted-foreground">{item.desc}</p>
               </div>
             ))}
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-border">
+            <div className="bg-card border border-primary/20 rounded-xl p-8 w-full shadow-sm">
+              <p className="text-muted-foreground leading-relaxed text-center mb-8 text-lg">
+                To ensure a smooth project kickoff and delivery, we operate on a milestone-based payment schedule:
+              </p>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-secondary/30 rounded-lg p-6 border border-border/50 h-full">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg">
+                      30%
+                    </div>
+                    <h5 className="font-bold text-xl text-foreground">Upfront Payment</h5>
+                  </div>
+                  <p className="text-base text-muted-foreground mb-4">
+                    Required to commence the project. This covers immediate third-party costs including:
+                  </p>
+                  <ul className="space-y-3 text-base text-foreground/80">
+                    <li className="flex items-start gap-3">
+                      <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>Domain Registration (nejashihospital.com)</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>Business Email Setup (info@nejashihospital.com)</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
+                      <span>Secure Web Hosting Environment</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="bg-secondary/30 rounded-lg p-6 border border-border/50 h-full">
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold text-lg">
+                      70%
+                    </div>
+                    <h5 className="font-bold text-xl text-foreground">Upon Completion</h5>
+                  </div>
+                  <p className="text-base text-muted-foreground mb-4">
+                    The remaining balance is due only after the website is fully developed, reviewed, and approved by your team.
+                  </p>
+                  <ul className="space-y-3 text-base text-foreground/80">
+                    <li className="flex items-start gap-3">
+                      <span className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
+                      <span>Final Design Approval</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
+                      <span>Content Upload Completion</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                      <span className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
+                      <span>Live Launch & Handover</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
